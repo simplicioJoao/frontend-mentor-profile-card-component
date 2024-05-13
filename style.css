@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: url(images/bg-pattern-bottom.svg) bottom -600px right -150px no-repeat, url(images/bg-pattern-top.svg) top -500px left -200px no-repeat;
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+
+main {
+    background-color: white;
+    border-radius: 20px;
+    margin: 100px auto;
+    max-width: 400px;
+    height: 450px;
+    text-align: center;
+    color: hsl(227, 10%, 46%);
+}
+
+.card {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.foto {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    border: 5px solid white;
+    transform: translateY(-50%);
+}
+
+h1 {
+    display: inline;
+    font-size: 24px;
+    color: hsl(229, 23%, 23%);
+}
+
+p#idade {
+    display: inline;
+    font-size: 24px;
+    margin-left: 5px;
+}
+
+hr {
+    margin-top: 32px;
+    border-color: hsl(0, 3%, 85%);
+    border-style: solid;
+}
+
+dl {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin: 25px 0;
+}
+
+dt {
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+}
+
+dd {
+    color: hsl(227, 10%, 46%);
+    letter-spacing: 2px;
+    font-size: 11px;
+    margin-top: 10px;
+}
+
+footer {
+    font-size: 15px;
+    text-align: center;
+}
+
+footer a {
+    color: hsl(229, 23%, 23%);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
