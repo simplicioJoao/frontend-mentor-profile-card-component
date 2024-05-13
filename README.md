@@ -26,7 +26,7 @@ Reproduction of provided designs.
 ### Links
 
 - [Solution URL](https://github.com/simplicioJoao/frontend-mentor-profile-card-component)
-- [Live Site URL]()
+- [Live Site URL](https://simpliciojoao.github.io/frontend-mentor-profile-card-component/)
 
 ## My process
 
@@ -34,6 +34,7 @@ Reproduction of provided designs.
 
 - Semantic HTML5 markup
 - CSS custom properties
+- CSS Flexbox
 
 ### Continued development
 
